@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', sans-serif;
+    /* Change font family for a modern look */
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    background: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+
+
+a {
+    text-decoration: underline;
+    color: #edff47;
+    /* Change link color to a bright pink */
+}
+
+.logo img {
+    max-height: 55px;
+    margin-right: 10px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;  
+}
+
+header, #hero {
+    background-image: url('fonn.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding: 10px 0;
+}
+
+
+nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Установка тени для текста */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    font-size: 20px;
+}
+nav h3 {
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0); /* Добавление тени для фона */
+    background:#83a4d4
+}
+
+
+#number {
+    color: #000000;
+}
+
+
+#hero {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Set text color for hero section */
+    background-color:rgba(0, 0, 0, 0);
+    /* Change background color to coral */
+}
+
+#hero h1 {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Установка тени для текста */
+    padding: 5px; /* Add some padding around the logo */
+    font-size: 120px;
+    color: #FFFF00;
+    margin-bottom:150px;
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    /* Настройка шрифта */
+}
+
+#hero p {
+    font-size: 36px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); /* Установка тени для текста */
+    /* Установка размера шрифта */
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: 'Brusher Cyrillic', serif;
+    /* Настройка шрифта */
+}
+
+
+#features, #grafic {
+    display: flex;
+}
+
+#features {
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;  
+}
+
+#features h2 {
+    font-size: 30px;
+    color: #FFFF00;
+    text-align: left;
+    display: flex;
+    padding: 2px 55px;
+}
+
+.section-container {
+    display: flex;
+}
+
+section {
+    flex: 1;
+    margin: 0px;
+}
+
+#grafic{
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    display: flex;
+    /* Расположение элементов в одной строке */
+    justify-content: center;
+    /* Выравнивание таблиц по центру */
+    gap: 70px;
+    /* Расстояние между таблицами */
+    font-size: 30px;
+}
+
+#grafic h1{
+    color: #FFFF00;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;  
+}
+
+
+#services h1 {
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #FFFF00;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;  
+    /* Change services background color to misty rose */
+}
+
+#services h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+}
+
+#services {
+    text-align: left;
+    padding: 50px;
+    /* Change services background color to misty rose */
+}
+
+.tables {
+    display: flex;
+    /* Расположение элементов в одной строке */
+    justify-content: left;
+    /* Выравнивание таблиц по центру */
+    gap: 70px;
+    /* Расстояние между таблицами */
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 30px;
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+}
+
+th,
+td {
+    border: 1px solid rgb(104, 102, 102);
+    padding: 8px;
+}
+
+.contact-icons li {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icons li i {
+    margin-right: 5px;
+}
+
+.contact-icons {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #8e44ad; /* Фиолетовый цвет текста */
+}
+
+.contact-info {
+    display: none;
+}
+
+/* Модный фон для секции контактов */
+#contact {
+    background-color: #f9f9f9; /* Светло-серый фон */
+    padding: 20px; /* Внутренний отступ */
+    border-radius: 10px; /* Скругленные углы */
+}
+
+/* Украшательства для заголовка */
+#contact h2 {
+    color: #2c3e50; /* Темно-синий цвет заголовка */
+    border-bottom: 2px solid #8e44ad; /* Фиолетовая линия снизу */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+#feedbackForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    flex: 2; /* Ширина для ввода текста */
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    align-self: flex-end; /* Разместить кнопку вправо */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contact {
+    padding: 10px;
+    /* Change contact background color to dark turquoise */
+    color: #ffffff;
+    /* Set text color for contact section */
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin: 0;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: 2px solid #f1f1f1; /* Добавляем рамку вокруг карты */
+    border-radius: 10px; /* Закругляем углы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+/* Добавление стилей для анимации шапки при прокрутке */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+header.scrolling-active {
+    background-color: lightblue;
+}
+
+/* Стили для всплывающего окна */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+#feedback {
+    padding: 20px;
+}
+
+#feedback h2 {
+    font-family: 'Comic Sans MS, Comic Sans', cursive;
+    font-size: 28px;
+    color: #333;
+}
+
+#feedbackForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feedbackForm label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#feedbackForm input,
+#feedbackForm textarea {
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #f7ff65;
+    border-radius: 4px;
+}
+
+#feedbackForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedbackForm button:hover {
+    background-color: #FFEC8B;
+}
